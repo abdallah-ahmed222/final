@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>G-Zone</title>
+        <link rel="stylesheet" href="assests/css/vendors/bootstrap.min.css">
+        <link rel="stylesheet" href="assests/css/vendors/all.min.css">
+        <link rel="stylesheet" href="assests/css/style.css">
+        <link rel="shortcut icon" type="image/ico" href="assests/img/intro-img.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Hachi+Maru+Pop&family=Jomhuria&family=Jost:wght@200;300;400;500&family=Montserrat:wght@200;400;500&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:wght@200;300;800&family=Raleway:wght@100;200;400;600;800&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&family=Space+Mono:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assests/css/media.css">
+    </head>
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-lg  main-nav py-3 fw-bold fixed-top">
+      <div class="container d-flex justify-content-between align-items-center">
+      <div class="nav__logo-container w-25"><a class="navbar-brand" href="index.html"><img  class="w-50" src="assests/img/logo.svg" alt="logo"></a></div>
+        <button class="navbar-toggler nav-container__togles"  data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end text-white" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-50 d-flex justify-content-between navbar-links">
+            <a class=" text-decoration-none text-white-50" href="index.html">Home</a>
+            <a class="text-decoration-none text-white-50 acount-user" href="#"></a>
+            <a class="text-decoration-none text-white-50 acount d-none" href="#">Log OUT</a>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+  <section class="p-5">
+    
+    <div class="game p-5">
+        <h2 class="name header p-3 mx-4 mt-2 section-two__heading text-center  rounded ">Speed Test</h2>
+        <div class="btn-group btnCont d-flex justify-content-center align-items-center">
+          <button type="button" class=" dropdown-toggle w-25 py-2 rounded" data-bs-toggle="dropdown" aria-expanded="false">
+            Speed
+          </button>
+          <ul class="dropdown-menu btnCont-buttons ">
+            <li class="level-one"><a class="dropdown-item" href="#">Hard</a></li>
+            <li class="level-two"><a class="dropdown-item" href="#">Normal</a></li>
+            <li class="level-three"><a class="dropdown-item " href="#">Easy</a></li>
+          </ul>
+        </div>
+        <div class="container">
+            <header class="header p-3  mt-2 section-two__heading d-flex justify-content-between rounded ">
+              <p class=" m-0">Level <span class="lvl"></span></p>
+              <p class="m-0">Seconds<span class="seconds px-2"></span></p>
+          </header>
+          <div>
+            <h3 class="the-word text-center my-2 fw-bold "></h3>
+            <form action="">
+              <input type="text" class="input d-block w-100 p-2 rounded text-center" />
+            </form>
+            <div class="control d-flex justify-content-between">
+                <div class="">seconds left<span class="px-2 time"></span></div>
+                <div class="score"><span class="got">0</span> from <span class="total"></span></div>
+            </div>
+            <div class="message text-center">you have <span class="message-span"></span> second to get the Next Word if you falid on any Part of the Game you will lose !!</div>
+            <div class="finish text-center "></div>
+            <div class="d-flex justify-content-center align-items-center py-3 fw-bold">
+              <button type="button" class=" start btn btn-secondary fw-bold text-black-50 hidden">Start !</button>
+              <button type="button" class=" new btn btn-secondary fw-bold text-black-50 hidden">again</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <script src="assests/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assests/js/vendors/particles.js"></script>
+    <script src="assests/js/vendors/app.js"></script>
+    <script src="assests/js/vendors/all.min.js"></script>
+    <script src="assests/js/speed.js"></script>
+</body>
+</html>

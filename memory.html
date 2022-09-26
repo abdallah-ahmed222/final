@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Zone</title>
+    <link rel="stylesheet" href="assests/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="assests/css/vendors/all.min.css">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="shortcut icon" type="image/ico" href="assests/img/intro-img.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Hachi+Maru+Pop&family=Jomhuria&family=Jost:wght@200;300;400;500&family=Montserrat:wght@200;400;500&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:wght@200;300;800&family=Raleway:wght@100;200;400;600;800&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&family=Space+Mono:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assests/css/media.css"> 
+</head>
+<body>
+        <div id="particles-js"></div>
+        <nav class="navbar navbar-expand-lg  main-nav py-3 fw-bold fixed-top">
+            <div class="container d-flex justify-content-between align-items-center">
+            <div class="nav__logo-container w-25"><a class="navbar-brand" href="index.html"><img  class="w-50" src="assests/img/logo.svg" alt="logo"></a></div>
+              <button class="navbar-toggler nav-container__togles"  data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end text-white" id="navbarNavAltMarkup">
+                <div class="navbar-nav w-50 d-flex justify-content-between navbar-links">
+                  <a class=" text-decoration-none text-white-50" href="index.html">Home</a>
+                  <a class="text-decoration-none text-white-50 acount-user" href="#"></a>
+                  <a class="text-decoration-none text-white-50 acount d-none" href="#">Log OUT</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <section class="p-5">
+            <div class="container-fluid d-flex flex-column flex-lg-row align-items-center py-5">
+                <header class="header p-3 mx-4 mt-5 section-two__heading d-flex  text-center justify-content-between rounded w-25 ">
+                    <p id="name" class=" m-0"></p>
+                </header>
+               <div class="game-container w-75">
+                <div class="p-4 m-4 memory-game-blocks d-flex justify-content-between flex-wrap rounded">
+                    <!-- 1/2 -->
+                    <div class="game-block " data-icon="home">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="home">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </div>
+                    <!-- 3/4 -->
+                    <div class="game-block" data-icon="heart">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="heart">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                    <!-- 5/6 -->
+                    <div class="game-block" data-icon="cloud">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="cloud">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                    </div>
+                    <!-- 7/8 -->
+                    <div class="game-block" data-icon="smile">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-face-smile"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="smile">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-face-smile"></i>
+                        </div>
+                    </div>
+                    <!-- 9/10 -->
+                    <div class="game-block" data-icon="hippo">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-hippo"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="hippo">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-hippo"></i>
+                        </div>
+                    </div>
+                    <!-- 11/12 -->
+                    <div class="game-block" data-icon="bell">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="bell">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                    </div>
+                    <!-- 13/14 -->
+                    <div class="game-block" data-icon="bomb">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-bomb"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="bomb">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-bomb"></i>
+                        </div>
+                    </div>
+                    <!-- 15/16 -->
+                    <div class="game-block" data-icon="ghost">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-ghost"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="ghost">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-ghost"></i>
+                        </div>
+                    </div>
+                    <!-- 17/18 -->
+                    <div class="game-block" data-icon="apple">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-brands fa-apple"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="apple">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-brands fa-apple"></i>
+                        </div>
+                    </div>
+                    <!-- 19/20 -->
+                    <div class="game-block" data-icon="gear">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                    </div>
+                    <div class="game-block" data-icon="gear">
+                        <div class="face front">
+                        </div>
+                        <div class=" face back">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                    </div>
+                </div>
+               </div>
+                <header class="header p-3 mx-4 mt-5 section-two__heading d-flex justify-content-between rounded w-25 text-center">
+                    <p class=" m-0">Wrong  <span class="tries"> 0</span></p>
+                </header>
+            </div>
+        </section>
+
+    <script src="assests/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assests/js/vendors/all.min.js"></script>
+    <script src="assests/js/vendors/particles.js"></script>
+    <script src="assests/js/vendors/app.js"></script>
+    <script src="assests/js/memory.js"></script>
+</body>
+</html>
